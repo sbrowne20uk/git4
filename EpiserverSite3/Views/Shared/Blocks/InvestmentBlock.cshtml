@@ -1,0 +1,8 @@
+﻿@using EPiServer.Core
+@using EPiServer.Web.Mvc.Html
+
+@model EpiserverSite3.Models.Blocks.InvestmentBlock
+
+<div @Html.EditAttributes(x => x.Image)>
+    <img src="@Url.ContentUrl(Model.Image)"/>
+</div>

@@ -1,0 +1,30 @@
+﻿@using EPiServer.Core
+@using EPiServer.Web.Mvc.Html
+@model EpiserverSite3.Models.Blocks.CallToActionBlock
+
+<div class="row">
+    <div class="@(string.IsNullOrEmpty(Model.Size) ? "col-md-6" : Model.Size)">
+        <div class="component component-c0000_openAccount">
+            <div class="component component-c0000_openAccount bg" style="background-image: url(@(Model.Image != null ? Url.Content(Model.Image.ToString()) : string.Empty)); background-color: @(!string.IsNullOrEmpty(Model.Colour) ? Model.Colour : string.Empty)">
+                <div class="row">
+                    <div class="col-xs-10 col-xs-offset-1 col-md-7">
+                        <h2>@Html.PropertyFor(x => x.Header)</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-10 col-xs-offset-1 col-md-offset-1 col-md-7">
+                        <p>@Html.PropertyFor(x => x.Paragraph)</p>
+                    </div>
+                </div>
+                @if (Model.DisplayButton)
+                {
+                    <div class="row">
+                        <div class="col-xs-10 col-xs-offset-1 col-md-offset-1 col-md-2">
+                            <a href="@Model.ButtonLink" class="btn btn-primary form-control">@Model.ButtonText</a>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

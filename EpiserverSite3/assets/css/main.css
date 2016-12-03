@@ -1,0 +1,216 @@
+﻿H1 { color: blue; }
+.contentAreaTwo{ background-color: #efefef;   }
+.spacer5 {
+  height: 5px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+  clear: both;
+}
+.spacer10 {
+  height: 10px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+  clear: both;
+}
+.spacer15 {
+  height: 15px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+  clear: both;
+}
+.spacer20 {
+  height: 20px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+  clear: both;
+}
+.spacer25 {
+  height: 25px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+  clear: both;
+}
+.spacer30 {
+  height: 30px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+  clear: both;
+}
+.spacer35 {
+  height: 35px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+  clear: both;
+}
+.spacer40 {
+  height: 40px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+  clear: both;
+}
+.spacer45 {
+  height: 45px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+  clear: both;
+}
+.spacer50 {
+  height: 50px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+  clear: both;
+}
+.spacer100 {
+  height: 100px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+  clear: both;
+}
+.spacer200 {
+  height: 200px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+  clear: both;
+}
+
+
+
+.component-c0000_openAccount {
+    width: 100%;
+    background-color: #455560;
+    color: #ffffff;
+    
+}
+
+.component-c0000_openAccount h2 {
+    text-align: center;
+    padding: 10px 10px 0 10px;
+    font-size: 18px;
+    font-family: verdana;
+    
+    
+    }
+
+.component-c0000_openAccount p{
+    text-align: center;
+    font-size: 12px;
+    padding: 10px 10px 0 10px;
+}
+
+.component-c0000_openAccount .bg{
+    
+    background: url('../../Static/components/c00.00_openAccount/img/c00.00_openAccount.JPG') no-repeat center bottom;
+    }   
+
+.component-c0000_openAccount .btn-primary{
+
+    margin-bottom: 300px;
+    
+}
+
+.colflex {
+        margin:15px;
+    }
+
+@media only screen and (min-width : 480px) {
+    
+    .component-c0000_openAccount {
+        /*background-color: #455560;*/
+        height: auto;
+        color: #ffffff;
+    }
+
+    .component-c0000_openAccount .bg{
+        background: url('../../Static/components/c00.00_openAccount/img/c00.00_openAccount.JPG') no-repeat bottom right;
+    }
+
+    .component-c0000_openAccount h2{    
+        font-size: 48px;
+        text-align: left;
+
+    }
+
+    .component-c0000_openAccount p{
+        font-size: 24px;
+        text-align: left;
+    }
+
+    .component-c0000_openAccount .btn-primary{
+        margin-bottom: 10px;
+    }
+
+     .component-goto > div > div > div > div {
+         padding: 8px;
+     }
+
+    .no-gutter {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .no-gutter-left {
+        padding-left: 0;
+    }
+
+    .no-gutter-right {
+        padding-right: 0;
+    }
+
+    .rowflex {
+  display: flex; /* equal height of the children */
+}
+    .colflex {
+        margin:10px;
+    }
+
+
+}
+

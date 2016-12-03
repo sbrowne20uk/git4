@@ -1,0 +1,51 @@
+﻿@model EpiserverSite3.Models.Pages.StartPage
+
+<div class="container">
+
+    <img src="https://05c52e94280074b18427-e458cdddc223e856b1b82c8ee1a79916.ssl.cf3.rackcdn.com/the-share-centre-simply-easier.png" />
+    @{
+        var url = "~/Static/components/c00.00_openAccount/img/c00.00_openAccount.JPG";
+
+    }
+    <div class="row">
+        <p>@Html.PropertyFor(x => x.MainBody)</p>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            @*<div class="thumb" style="background-image: url(@Url.Content(url))">sdfsdfsdf</div>*@
+            @Html.PropertyFor(x => x.MainContentArea)
+        </div>
+    </div>
+
+            <div style="background-color: #eeeeee; padding-top: 20px">
+
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="row rowflex">
+                            <div class="col-md-4 colflex" style="background-color: #C1D82E;">
+                                <div >
+                                    <h2>Looking to invest in shares?</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor orem ipsum dolor sit amet</p>
+                                    <div>> Go to shares</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 colflex" style="background-color: #343E47;">
+                                <div>
+                                    <h2>Looking to invest in funds?</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                                    <div>> Go to funds</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 colflex" style="background-color: #44555F;">
+                                <div>
+                                    <h2>Not sure what's right for you?</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                                    <div>> Find an investment</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
